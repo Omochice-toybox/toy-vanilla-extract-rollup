@@ -1,6 +1,9 @@
 import { vanillaExtractPlugin } from "@vanilla-extract/rollup-plugin"
 
-export default {
+/**
+ * @type {import('rollup').RollupOptions}
+ */
+const config = {
   input: "dist/main.js",
   output: {
     file: "bundle.js",
@@ -10,3 +13,5 @@ export default {
     vanillaExtractPlugin()
   ]
 }
+
+export default config
