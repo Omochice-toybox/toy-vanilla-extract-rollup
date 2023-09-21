@@ -7,7 +7,7 @@ const config = {
   input: "dist/main.js",
   output: {
     file: "out/bundle.js",
-    format: "umd",
+    format: "es",
   },
   plugins: [vanillaExtractPlugin()],
 };
