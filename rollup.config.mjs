@@ -1,4 +1,4 @@
-import { vanillaExtractPlugin } from "@vanilla-extract/rollup-plugin"
+import { vanillaExtractPlugin } from "@vanilla-extract/rollup-plugin";
 
 /**
  * @type {import('rollup').RollupOptions}
@@ -9,9 +9,7 @@ const config = {
     file: "out/bundle.js",
     format: "umd",
   },
-  plugins: [
-    vanillaExtractPlugin()
-  ]
-}
+  plugins: [vanillaExtractPlugin()],
+};
 
-export default config
+export default config;
