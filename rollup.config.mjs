@@ -6,7 +6,7 @@ import { vanillaExtractPlugin } from "@vanilla-extract/rollup-plugin"
 const config = {
   input: "dist/main.js",
   output: {
-    file: "bundle.js",
+    file: "out/bundle.js",
     format: "umd",
   },
   plugins: [
